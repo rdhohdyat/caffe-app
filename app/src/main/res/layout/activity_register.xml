@@ -69,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="Email"
+                    android:text="Username"
                     android:textSize="14sp" />
 
                 <androidx.appcompat.widget.AppCompatEditText
@@ -79,7 +79,7 @@
                     android:layout_marginTop="6dp"
                     android:background="@drawable/input_background"
                     android:fontFamily="@font/poppinsregular"
-                    android:hint="Masukkan email"
+                    android:hint="Masukkan username"
                     android:paddingHorizontal="12dp"
                     android:textSize="14sp"
                     app:layout_constraintTop_toBottomOf="@+id/email_lable" />

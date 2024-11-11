@@ -25,14 +25,15 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/icon"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/money"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/description"
-                android:textSize="14dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsregular"
                 android:text="Sun, Sep 12 2024, 13.00 - Cash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -40,8 +41,9 @@
 
         <TextView
             android:id="@+id/total"
-            android:textSize="15dp"
+            android:textSize="14sp"
             android:text="Rp. 321.100"
+            android:fontFamily="@font/poppinsregular"
             android:textColor="@color/green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>

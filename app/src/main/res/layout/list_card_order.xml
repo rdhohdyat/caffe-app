@@ -41,7 +41,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinssemibold"
                     android:text="Nasi Goreng" />
 
                 <TextView
@@ -49,6 +50,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:text="Makanan" />
 
                 <TextView
@@ -56,6 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:text="Rp.25.000" />
             </LinearLayout>
         </LinearLayout>
@@ -64,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="24sp"
@@ -76,7 +79,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:textSize="18sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp"
                 android:text="5" />
 
             <ImageView

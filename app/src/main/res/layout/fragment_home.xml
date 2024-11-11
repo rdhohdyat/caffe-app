@@ -38,6 +38,7 @@
                         android:hint="Search..."
                         android:background="@drawable/bacground_white"
                         android:padding="10dp"
+                        android:textSize="16sp"
                         android:layout_weight="1" />
 
                 </LinearLayout>
@@ -80,6 +81,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Semua"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:textColor="@color/white" />
             </LinearLayout>
 
@@ -104,6 +107,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Makanan"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:textColor="@color/blue" />
             </LinearLayout>
 
@@ -129,6 +134,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Minuman"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:textColor="@color/blue" />
             </LinearLayout>
 
@@ -153,6 +160,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Snack"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsregular"
                     android:textColor="@color/blue" />
             </LinearLayout>
 

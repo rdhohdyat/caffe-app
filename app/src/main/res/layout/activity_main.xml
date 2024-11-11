@@ -21,12 +21,12 @@
             android:id="@+id/toolbarText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="@font/poppinssemibold"
             android:gravity="center"
             android:text="Menu Cafe"
             android:layout_marginHorizontal="15dp"
             android:textColor="@color/blue"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
